@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class TextoView extends StatelessWidget {
   const TextoView({super.key});
 
+  final String name = 'texto_view';
+
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
